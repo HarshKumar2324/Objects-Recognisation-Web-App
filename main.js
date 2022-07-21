@@ -38,7 +38,7 @@ function draw(){
     
     fill('#FF0000');
     text("Cat", 320, 120);
-    nofill();
+    noFill();
     stroke('#FF0000');
     rect(300, 90, 270, 320);
 }
