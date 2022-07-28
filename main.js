@@ -39,7 +39,7 @@ function draw(){
         percent=floor(objects[index].confidence*100);
         label_name=(objects[index].label);
         text(label_name+" "+percent+"%", objects[index].x, objects[index].y);
-        nofill();
+        noFill();
         stroke('#FF0000');
         rect(objects[index].x, objects[index].y, objects[index].height, objects[index].width);
     }
